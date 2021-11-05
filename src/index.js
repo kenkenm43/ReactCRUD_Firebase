@@ -2,10 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import App from "./App";
+import { FavoritesContextProvider } from "./store/favorites-context";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <FavoritesContextProvider>
     <App />
-  </React.StrictMode>,
+  </FavoritesContextProvider>,
   document.getElementById("root")
 );
