@@ -17,7 +17,7 @@ function App() {
           <Route path="/new-meetup" element={<NewMeetupPage />} />
           <Route path="/favorites" element={<FavoritesPage />} />
         </Routes>
-      </Layout>{" "}
+      </Layout>
     </Router>
   );
 }
